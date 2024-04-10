@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dashboard</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__title-container">
+				<img src="img/logo.png" class="header__logo" />
+				<h1 class="header__title">Dashboard</h1>
+				<p class="header__version">v.01</p>
+			</div>
+			<nav class="header__nav">
+				<ul class="header__nav-list">
+					<li class="header__nav-item">
+						<button class="header__nav-btn">
+							<img src="img/icons/key-square.png" alt="Dashboard" />
+							<p class="header__nav-text">Dashboard</p>
+						</button>
+					</li>
+					<li class="header__nav-item">
+						<button class="header__nav-btn">
+							<img src="img/icons/3d-square.png" alt="Product" />
+							<p class="header__nav-text">Product</p>
+							<img
+								src="img/icons/chevron-right 2.png"
+								alt="chevron-right"
+								class="header__nav-chevron"
+							/>
+						</button>
+					</li>
+					<li class="header__nav-item">
+						<button class="header__nav-btn customers">
+							<img src="img/icons/user-square.png" alt="Customer" />
+							<p class="header__nav-text">Customers</p>
+							<img
+								src="img/icons/chevron-right 2.png"
+								alt="chevron-right"
+								class="header__nav-chevron"
+							/>
+						</button>
+					</li>
+					<li class="header__nav-item">
+						<button class="header__nav-btn">
+							<img src="img/icons/wallet-money.png" alt="Income" />
+							<p class="header__nav-text">Income</p>
+							<img
+								src="img/icons/chevron-right 2.png"
+								alt="chevron-right"
+								class="header__nav-chevron"
+							/>
+						</button>
+					</li>
+					<li class="header__nav-item">
+						<button class="header__nav-btn">
+							<img src="img/icons/discount-shape.png" alt="Promote" />
+							<p class="header__nav-text">Promote</p>
+							<img
+								src="img/icons/chevron-right 2.png"
+								alt="chevron-right"
+								class="header__nav-chevron"
+							/>
+						</button>
+					</li>
+					<li class="header__nav-item">
+						<button class="header__nav-btn">
+							<img src="img/icons/message-question.png" alt="Help" />
+							<p class="header__nav-text">Help</p>
+							<img
+								src="img/icons/chevron-right 2.png"
+								alt="chevron-right"
+								class="header__nav-chevron"
+							/>
+						</button>
+					</li>
+				</ul>
+				<a href="#" class="header__profile">
+					<img src="img/Ellipse 8.png" alt="Evano" />
+					<div class="header__profile-info">
+						<h3 class="header__profile-name">Evano</h3>
+						<span class="header__profile-job">Project Manager</span>
+					</div>
+				</a>
+			</nav>
+		</header>
+
+		<main class="main">
+			<section class="main__section-first">
+				<span class="main__message">Hello Evano 👋🏻,</span>
+			</section>
+			<section class="main__section-second">
+				<div class="main__header-section">
+					<div class="main__header-container">
+						<h2 class="main__header-title">All Customers</h2>
+						<span class="main__header-text">Active Members</span>
+					</div>
+					<div class="main__search-container">
+						<button class="main__search-btn">
+							<img src="img/search.png" alt="search" />
+						</button>
+						<input
+							type="text"
+							class="main__search-input"
+							placeholder="Search"
+						/>
+					</div>
+				</div>
+				<table class="main__table">
+					<tr class="main__table-title">
+						<th class="main__table-th">Customer Name</th>
+						<th class="main__table-th">Company</th>
+						<th class="main__table-th">Phone Number</th>
+						<th class="main__table-th">Email</th>
+						<th class="main__table-th">Country</th>
+						<th class="main__table-th">Status</th>
+					</tr>
+					<tr class="main__table-border">
+						<td class="main__table-td">Jane Cooper</td>
+						<td class="main__table-td">Microsoft</td>
+						<td class="main__table-td">(225) 555-0118</td>
+						<td class="main__table-td">jane@microsoft.com</td>
+						<td class="main__table-td">United States</td>
+						<td class="main__table-active">
+							<p class="main__table-green">Active</p>
+						</td>
+					</tr>
+					<tr class="main__table-border">
+						<td class="main__table-td">Jane Cooper</td>
+						<td class="main__table-td">Microsoft</td>
+						<td class="main__table-td">(225) 555-0118</td>
+						<td class="main__table-td">jane@microsoft.com</td>
+						<td class="main__table-td">United States</td>
+						<td class="main__table-inactive">
+							<p class="main__table-red">Active</p>
+						</td>
+					</tr>
+					<tr class="main__table-border">
+						<td class="main__table-td">Jane Cooper</td>
+						<td class="main__table-td">Microsoft</td>
+						<td class="main__table-td">(225) 555-0118</td>
+						<td class="main__table-td">jane@microsoft.com</td>
+						<td class="main__table-td">United States</td>
+						<td class="main__table-inactive">
+							<p class="main__table-red">Active</p>
+						</td>
+					</tr>
+					<tr class="main__table-border">
+						<td class="main__table-td">Jane Cooper</td>
+						<td class="main__table-td">Microsoft</td>
+						<td class="main__table-td">(225) 555-0118</td>
+						<td class="main__table-td">jane@microsoft.com</td>
+						<td class="main__table-td">United States</td>
+						<td class="main__table-active">
+							<p class="main__table-green">Active</p>
+						</td>
+					</tr>
+					<tr class="main__table-border">
+						<td class="main__table-td">Jane Cooper</td>
+						<td class="main__table-td">Microsoft</td>
+						<td class="main__table-td">(225) 555-0118</td>
+						<td class="main__table-td">jane@microsoft.com</td>
+						<td class="main__table-td">United States</td>
+						<td class="main__table-active">
+							<p class="main__table-green">Active</p>
+						</td>
+					</tr>
+					<tr class="main__table-border">
+						<td class="main__table-td">Jane Cooper</td>
+						<td class="main__table-td">Microsoft</td>
+						<td class="main__table-td">(225) 555-0118</td>
+						<td class="main__table-td">jane@microsoft.com</td>
+						<td class="main__table-td">United States</td>
+						<td class="main__table-active">
+							<p class="main__table-green">Active</p>
+						</td>
+					</tr>
+					<tr class="main__table-border">
+						<td class="main__table-td">Jane Cooper</td>
+						<td class="main__table-td">Microsoft</td>
+						<td class="main__table-td">(225) 555-0118</td>
+						<td class="main__table-td">jane@microsoft.com</td>
+						<td class="main__table-td">United States</td>
+						<td class="main__table-active">
+							<p class="main__table-green">Active</p>
+						</td>
+					</tr>
+					<tr class="main__table-border">
+						<td class="main__table-td">Jane Cooper</td>
+						<td class="main__table-td">Microsoft</td>
+						<td class="main__table-td">(225) 555-0118</td>
+						<td class="main__table-td">jane@microsoft.com</td>
+						<td class="main__table-td">United States</td>
+						<td class="main__table-inactive">
+							<p class="main__table-red">Active</p>
+						</td>
+					</tr>
+				</table>
+				<div class="main__section-third">
+					<div class="main__third-left">
+						<p class="main__third-p">Showing data 1 to 8 of 256K entries</p>
+					</div>
+					<div class="main__third-right">
+						<button class="main__third-btn">&lt;</button>
+						<button class="main__third-purple">1</button>
+						<button class="main__third-btn">2</button>
+						<button class="main__third-btn">3</button>
+						<button class="main__third-btn">4</button>
+						<button class="main__third-btn">...</button>
+						<button class="main__third-btn">40</button>
+						<button class="main__third-btn">&gt;</button>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
